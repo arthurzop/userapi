@@ -46,7 +46,7 @@ export const updateUser = (req, res) =>{
     })
 }
 
-//exportando funcao de adicionar usuario
+//exportando funcao de deletar usuario
 export const deleteUser = (req, res) => {
     const q = 'DELETE FROM usuarios WHERE id = ?'
 
