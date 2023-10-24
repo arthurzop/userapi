@@ -10,3 +10,8 @@ app.use(cors());
 app.use("/", userRoutes);
 
 app.listen(8800);
+
+const port = process.env.PORT || 3307;
+app.listen(port, () => {
+  console.log(`Servidor em execução na porta ${port}`);
+});
